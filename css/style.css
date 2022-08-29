@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+
+
+
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logo {
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
+
+.menu {
+    background-color: crimson;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Header */
+
+
+
+
+
+/* Footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    background-color: crimson;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo-bottom {
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Footer */
+
+
+
+
+
+/* Index */
+
+.portada-index {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.portada-index img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-index h1 {
+    background-color: aquamarine;
+}
+
+.contenido-index {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.bloq1-index {
+    background-color: blue;
+    text-align: center;
+}
+
+.bloq1-index h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq1-index p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq2-index {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.bloq2-index img {
+    width: 400px;
+    height: auto;
+}
+
+.bloq3-index {
+    background-color: brown;
+    text-align: center;
+}
+
+.bloq3-index img {
+    width: 400px;
+    height: auto;
+}
+
+.bloq4-index {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.bloq4-index h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq4-index p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq4-index img {
+    width: 400px;
+    height: auto;
+}
+
+/* index */
+
+
+
+
+
+/* Contacto */
+
+.contenido-contacto {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.portada-contacto {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.portada-contacto img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-contacto h1 {
+    background-color: aquamarine;
+}
+
+.contenido-contacto div {
+    background-color: blue;
+    text-align: center;
+}
+
+/* Contacto */
+
+
+
+
+
+/* Ferreteria */
+
+.contenido-ferreteria {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.portada-ferreteria {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.portada-ferreteria img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-ferreteria h1 {
+    background-color: aquamarine;
+}
+
+.bloq1-ferreteria {
+    background-color: blue;
+    text-align: center;
+}
+
+.bloq1-ferreteria h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq1-ferreteria p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq2-ferreteria {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.bloq2-ferreteria img {
+    width: 400px;
+    height: auto;
+}
+
+.bloq3-ferreteria {
+    background-color: brown;
+    text-align: center;
+}
+
+.bloq3-ferreteria h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq3-ferreteria p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq4-ferreteria {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.bloq4-ferreteria img {
+    width: 400px;
+    height: auto;
+}
+
+/* Ferreteria */
+
+
+
+
+
+/* Metalurgica */
+
+.portada-metalurgica {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.portada-metalurgica img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-metalurgica h1 {
+    background-color: aquamarine;
+}
+
+.contenido-metalurgica {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.bloq1-metalurgica {
+    background-color: blue;
+    text-align: center;
+}
+
+.bloq1-metalurgica h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq1-metalurgica p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq2-metalurgica {
+    background-color: blueviolet;
+    text-align: center;
+    width: 100%;
+}
+
+.bloq2-metalurgica img {
+    width: 400px;
+    height: auto;
+}
+
+.bloq3-metalurgica {
+    background-color: brown;
+    text-align: center;
+}
+
+.bloq3-metalurgica h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq3-metalurgica p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.bloq4-metalurgica {
+    background-color: burlywood;
+    text-align: center;
+    width: 100%;
+}
+
+.bloq4-metalurgica img {
+    width: 400px;
+    height: auto;
+}
+
+/* Metalurgica */
+
+
+
+
+
+/* Nosotros */
+
+.contenido-nosotros {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.portada-nosotros {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.portada-nosotros img {
+    width: 100%;
+    height: 100%;
+}
+
+.portada-nosotros h1 {
+    background-color: aquamarine;
+}
+
+.bloq1-nosotros {
+    background-color: blue;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.bloq1-nosotros div {
+    padding: 25px;
+}
+
+.bloq1-nosotros div h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloq1-nosotros div p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.bloq1-nosotros img {
+    height: 300px;
+    width: auto;
+}
+
+/* Nosotros */
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-columns: 75px auto;
+    }
+    
+}
+
+/* Responsive */
