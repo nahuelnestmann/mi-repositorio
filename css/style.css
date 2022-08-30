@@ -49,13 +49,13 @@
 }
 
 .copyright {
-    background-color: crimson;
+    background-color: white;
     text-align: center;
     padding: 25px;
 }
 
 .logo-bottom {
-    background-color: aqua;
+    background-color: white;
     text-align: center;
     padding: 25px;
 }
@@ -68,28 +68,15 @@
 
 /* Index */
 
-.portada-index {
-    text-align: center;
-    background-color: blanchedalmond;
-}
-
-.portada-index img {
-    width: 100%;
-    height: 100%;
-}
-
-.portada-index h1 {
-    background-color: aquamarine;
-}
-
 .contenido-index {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
 }
 
 .bloq1-index {
-    background-color: blue;
+    background-color: white;
     text-align: center;
+    padding: 25px;
 }
 
 .bloq1-index h2 {
@@ -105,29 +92,10 @@
     padding: 25px;
 }
 
-.bloq2-index {
-    background-color: blueviolet;
-    text-align: center;
-}
-
-.bloq2-index img {
-    width: 400px;
-    height: auto;
-}
-
-.bloq3-index {
-    background-color: brown;
-    text-align: center;
-}
-
-.bloq3-index img {
-    width: 400px;
-    height: auto;
-}
-
 .bloq4-index {
-    background-color: burlywood;
+    background-color: white;
     text-align: center;
+    padding-top: 25px;
 }
 
 .bloq4-index h2 {
@@ -141,11 +109,6 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
-}
-
-.bloq4-index img {
-    width: 400px;
-    height: auto;
 }
 
 /* index */
@@ -193,23 +156,10 @@
     grid-template-rows: auto auto auto auto auto;
 }
 
-.portada-ferreteria {
-    text-align: center;
-    background-color: blanchedalmond;
-}
-
-.portada-ferreteria img {
-    width: 100%;
-    height: 100%;
-}
-
-.portada-ferreteria h1 {
-    background-color: aquamarine;
-}
-
 .bloq1-ferreteria {
-    background-color: blue;
+    background-color: white;
     text-align: center;
+    padding: 25px;
 }
 
 .bloq1-ferreteria h2 {
@@ -225,19 +175,10 @@
     padding: 25px;
 }
 
-.bloq2-ferreteria {
-    background-color: blueviolet;
-    text-align: center;
-}
-
-.bloq2-ferreteria img {
-    width: 400px;
-    height: auto;
-}
-
 .bloq3-ferreteria {
-    background-color: brown;
+    background-color: white;
     text-align: center;
+    padding: 25px;
 }
 
 .bloq3-ferreteria h2 {
@@ -251,16 +192,6 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
-}
-
-.bloq4-ferreteria {
-    background-color: burlywood;
-    text-align: center;
-}
-
-.bloq4-ferreteria img {
-    width: 400px;
-    height: auto;
 }
 
 /* Ferreteria */
