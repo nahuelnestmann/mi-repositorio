@@ -32,23 +32,25 @@
 
     <main class="contenido-contacto">
 
-        <div class="portada-contacto">
-            <h1>Contacto</h1>
-            <img src="../assets/nosotros.jpg" alt="PortadaContacto">
-        </div>
+        <div class="card text-bg-dark text-center">
+            <img src="../assets/nosotros1.jpg" class="card-img opacity-50" alt="Portada">
+            <div class="card-img-overlay">
+              <h1 class="card-title position-absolute top-50 start-50 translate-middle text-light">Contacto</h1>
+            </div>
+          </div>
 
-        <div>
+        <div class="formulario">
             <h2>Contactanos</h2>
             <form action="">
-                <fieldset>
-                    <legend>Formulario de contacto</legend>
-                    <input type="text" name="username" placeholder="Nombre">
+                <fieldset class="text-area">
+                    <legend></legend>
+                    <input type="text" name="username" id="username" placeholder="Nombre">
                     <br> 
                     <input type="email" name="email" id="email" placeholder="Email">
                     <br>
-                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                    <textarea name="text" id="text" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <br>
-                    <input type="submit" value="Enviar">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </fieldset>
             </form> 
         </div>

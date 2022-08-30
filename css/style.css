@@ -15,26 +15,6 @@
 
 /* Header */
 
-.header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.logo {
-    background-color: aqua;
-    padding: 25px;
-    text-align: center;
-}
-
-.menu {
-    background-color: crimson;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
 /* Header */
 
 
@@ -124,23 +104,29 @@
     grid-template-rows: auto auto;
 }
 
-.portada-contacto {
+.formulario {
+    background-color: white;
     text-align: center;
-    background-color: blanchedalmond;
+    padding: 25px;
 }
 
-.portada-contacto img {
-    width: 100%;
-    height: 100%;
+.text-area {
+    padding: 25px;
 }
 
-.portada-contacto h1 {
-    background-color: aquamarine;
+#email {
+    width: 350px;
+    padding: 5px;
 }
 
-.contenido-contacto div {
-    background-color: blue;
-    text-align: center;
+#username {
+    width: 350px;
+    padding: 5px;
+}
+
+#text {
+    width: 350px;
+    padding: 5px;
 }
 
 /* Contacto */
@@ -202,20 +188,6 @@
 
 /* Metalurgica */
 
-.portada-metalurgica {
-    text-align: center;
-    background-color: blanchedalmond;
-}
-
-.portada-metalurgica img {
-    width: 100%;
-    height: 100%;
-}
-
-.portada-metalurgica h1 {
-    background-color: aquamarine;
-}
-
 .contenido-metalurgica {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -224,8 +196,9 @@
 }
 
 .bloq1-metalurgica {
-    background-color: blue;
+    background-color: white;
     text-align: center;
+    padding: 25px;
 }
 
 .bloq1-metalurgica h2 {
@@ -241,20 +214,10 @@
     padding: 25px;
 }
 
-.bloq2-metalurgica {
-    background-color: blueviolet;
-    text-align: center;
-    width: 100%;
-}
-
-.bloq2-metalurgica img {
-    width: 400px;
-    height: auto;
-}
-
 .bloq3-metalurgica {
-    background-color: brown;
+    background-color: white;
     text-align: center;
+    padding: 25px;
 }
 
 .bloq3-metalurgica h2 {
@@ -270,17 +233,6 @@
     padding: 25px;
 }
 
-.bloq4-metalurgica {
-    background-color: burlywood;
-    text-align: center;
-    width: 100%;
-}
-
-.bloq4-metalurgica img {
-    width: 400px;
-    height: auto;
-}
-
 /* Metalurgica */
 
 
@@ -294,47 +246,8 @@
     grid-template-rows: auto auto auto;
 }
 
-.portada-nosotros {
-    text-align: center;
-    background-color: blanchedalmond;
-}
-
-.portada-nosotros img {
-    width: 100%;
-    height: 100%;
-}
-
-.portada-nosotros h1 {
-    background-color: aquamarine;
-}
-
 .bloq1-nosotros {
-    background-color: blue;
-    display: grid;
-    grid-template-rows: auto auto;
-    align-items: center;
-    justify-items: center;
-}
-
-.bloq1-nosotros div {
     padding: 25px;
-}
-
-.bloq1-nosotros div h2 {
-    color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bloq1-nosotros div p {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.bloq1-nosotros img {
-    height: 300px;
-    width: auto;
 }
 
 /* Nosotros */
