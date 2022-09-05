@@ -53,6 +53,12 @@
     grid-template-rows: auto auto auto auto auto;
 }
 
+#h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
 .bloq1-index {
     background-color: white;
     text-align: center;
@@ -70,6 +76,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
 }
 
 .bloq4-index {
@@ -89,6 +96,17 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
+}
+
+.bloq2-index:hover {
+    opacity: 95% !important;
+}
+.bloq3-index:hover {
+    opacity: 95% !important;
+}
+#bloq4-index:hover {
+    opacity: 95% !important;
 }
 
 /* index */
@@ -142,6 +160,12 @@
     grid-template-rows: auto auto auto auto auto;
 }
 
+#h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
 .bloq1-ferreteria {
     background-color: white;
     text-align: center;
@@ -159,6 +183,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
 }
 
 .bloq3-ferreteria {
@@ -178,6 +203,14 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
+}
+
+.bloq2-ferreteria:hover {
+    opacity: 95% !important;
+}
+.bloq4-ferreteria:hover {
+    opacity: 95% !important;
 }
 
 /* Ferreteria */
@@ -212,6 +245,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
 }
 
 .bloq3-metalurgica {
@@ -231,6 +265,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 25px;
+    font-size: 16px;
 }
 
 /* Metalurgica */
@@ -267,3 +302,16 @@
 }
 
 /* Responsive */
+
+/* Animaciones */
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Animaciones */
