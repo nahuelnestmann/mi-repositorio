@@ -1,12 +1,26 @@
+/* Variables */
+
+$colorFondo: white;
+$colorTexto: black;
+$paddingCajas: 25px;
+$fuenteTitulo: Arial, Helvetica, sans-serif;
+$fuenteTexto: 'Times New Roman', Times, serif;
+
+/* Variables */
+
+
+
+
+
 /* Nosotros */
 
 .bloq1-nosotros {
-    padding: 25px;
+    padding: $paddingCajas;
     h2 {
-        color: black;
+        color: $colorTexto;
     }
     p {
-        color: black;
+        color: $colorTexto;
         font-size: 16px;
     }
 }
@@ -20,37 +34,37 @@
 /* Metalurgica */
 
 .bloq1-metalurgica {
-    background-color: white;
+    background-color: $colorFondo;
     text-align: center;
-    padding: 25px;
+    padding: $paddingCajas;
     h2 {
-        color: black;
+        color: $colorTexto;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $fuenteTitulo;
     }
     p {
-        color: black;
-        font-family: 'Times New Roman', Times, serif;
+        color: $colorTexto;
+        font-family: $fuenteTexto;
         text-align: center;
-        padding: 25px;
+        padding: $paddingCajas;
         font-size: 16px;
     }
 }
 
 .bloq3-metalurgica {
-    background-color: white;
+    background-color: $colorFondo;
     text-align: center;
-    padding: 25px;
+    padding: $paddingCajas;
     h2 {
-        color: black;
+        color: $colorTexto;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $fuenteTitulo;
     }
     p {
-        color: black;
-        font-family: 'Times New Roman', Times, serif;
+        color: $colorTexto;
+        font-family: $fuenteTexto;
         text-align: center;
-        padding: 25px;
+        padding: $paddingCajas;
         font-size: 16px;
     }
 }
