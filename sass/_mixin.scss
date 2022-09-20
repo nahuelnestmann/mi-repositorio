@@ -1,0 +1,13 @@
+/* Mixin */
+
+@mixin animateh1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+@mixin opacity {
+    opacity: 95% !important;
+}
+
+/* Mixin */

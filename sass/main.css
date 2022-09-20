@@ -1,3 +1,5 @@
+/* Variables */
+/* Variables */
 /* Nosotros */
 .bloq1-nosotros {
   padding: 25px;
@@ -11,18 +13,29 @@
 }
 
 /* Nosotros */
+/* Mixin */
+/* Mixin */
 /* Metalurgica */
-.bloq1-metalurgica {
+#h1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.bloq1-metalurgica, .bloq3-metalurgica {
   background-color: white;
   text-align: center;
   padding: 25px;
 }
-.bloq1-metalurgica h2 {
+.bloq1-metalurgica h2, .bloq3-metalurgica h2 {
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.bloq1-metalurgica p {
+.bloq1-metalurgica p, .bloq3-metalurgica p {
   color: black;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -30,17 +43,32 @@
   font-size: 16px;
 }
 
-.bloq3-metalurgica {
-  background-color: white;
+.bloq2-metalurgica:hover, .bloq4-ferreteria:hover, .bloq4-metalurgica:hover {
+  opacity: 95% !important;
+}
+
+/* Metalurgica */
+/* Ferreteria */
+#h1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.bloq1-ferreteria, .bloq3-ferreteria {
+  background-color: red;
   text-align: center;
   padding: 25px;
 }
-.bloq3-metalurgica h2 {
+.bloq1-ferreteria h2, .bloq3-ferreteria h2 {
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.bloq3-metalurgica p {
+.bloq1-ferreteria p, .bloq3-ferreteria p {
   color: black;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -48,4 +76,8 @@
   font-size: 16px;
 }
 
-/* Metalurgica *//*# sourceMappingURL=main.css.map */
+.bloq2-ferreteria:hover {
+  opacity: 95% !important;
+}
+
+/* Ferreteria *//*# sourceMappingURL=main.css.map */

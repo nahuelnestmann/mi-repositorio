@@ -1,0 +1,36 @@
+/* Ferreteria */
+
+#h1 {
+    @include animateh1;
+}
+
+.bloq1-ferreteria {
+    background-color: red;
+    text-align: center;
+    padding: $paddingCajas;
+    h2 {
+        color: $colorTexto;
+        text-align: center;
+        font-family: $fuenteTitulo;
+    }
+    p {
+        color: $colorTexto;
+        font-family: $fuenteTexto;
+        text-align: center;
+        padding: $paddingCajas;
+        font-size: 16px;
+    }
+}
+
+.bloq3-ferreteria {
+    @extend .bloq1-ferreteria;
+}
+
+.bloq2-ferreteria:hover {
+    @include opacity;
+}
+.bloq4-ferreteria:hover {
+    @extend .bloq2-metalurgica;
+}
+
+/* Ferreteria */

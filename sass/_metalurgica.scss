@@ -1,0 +1,36 @@
+/* Metalurgica */
+
+#h1 {
+    @include animateh1;
+}
+
+.bloq1-metalurgica {
+    background-color: $colorFondo;
+    text-align: center;
+    padding: $paddingCajas;
+    h2 {
+        color: $colorTexto;
+        text-align: center;
+        font-family: $fuenteTitulo;
+    }
+    p {
+        color: $colorTexto;
+        font-family: $fuenteTexto;
+        text-align: center;
+        padding: $paddingCajas;
+        font-size: 16px;
+    }
+}
+
+.bloq3-metalurgica {
+    @extend .bloq1-metalurgica;
+}
+
+.bloq2-metalurgica:hover {
+    @include opacity;
+}
+.bloq4-metalurgica:hover {
+    @extend .bloq2-metalurgica;
+}
+
+/* Metalurgica */

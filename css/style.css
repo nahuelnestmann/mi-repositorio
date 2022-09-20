@@ -160,59 +160,6 @@
     grid-template-rows: auto auto auto auto auto;
 }
 
-#h1 {
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: 1;
-}
-
-.bloq1-ferreteria {
-    background-color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-.bloq1-ferreteria h2 {
-    color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bloq1-ferreteria p {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 25px;
-    font-size: 16px;
-}
-
-.bloq3-ferreteria {
-    background-color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-.bloq3-ferreteria h2 {
-    color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.bloq3-ferreteria p {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 25px;
-    font-size: 16px;
-}
-
-.bloq2-ferreteria:hover {
-    opacity: 95% !important;
-}
-.bloq4-ferreteria:hover {
-    opacity: 95% !important;
-}
-
 /* Ferreteria */
 
 
@@ -228,7 +175,7 @@
     justify-items: center;
 }
 
-/* Metalurgic */
+/* Metalurgica */
 
 
 
