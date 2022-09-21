@@ -15,6 +15,13 @@
 
 /* Header */
 
+#logo {
+    width: 75px;
+    height: 75px;
+    margin-right: -85px;
+    opacity: 75%;
+}
+
 /* Header */
 
 
@@ -25,13 +32,22 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 40px;
+    padding: 15px;
 }
 
 .copyright {
     background-color: white;
     text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.infoFooter {
+    background-color: white;
+    text-align: center;
     padding: 25px;
+    font-size: 20px;
 }
 
 .logo-bottom {
@@ -171,8 +187,6 @@
 .contenido-metalurgica {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    align-items: center;
-    justify-items: center;
 }
 
 /* Metalurgica */
@@ -205,7 +219,30 @@
         display: grid;
         grid-template-columns: 75px auto;
     }
-    
+}
+
+@media (max-width: 992px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .infoFooter {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .copyright {
+        font-size: 14px;
+    }
+}
+@media (max-width: 992px) {
+    .footer {
+        grid-template-rows: 1fr 50px;
+    }
 }
 
 /* Responsive */

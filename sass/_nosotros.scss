@@ -1,5 +1,9 @@
 /* Nosotros */
 
+#h1 {
+    @include animateh1;
+}
+
 .bloq1-nosotros {
     padding: $paddingCajas;
     h2 {
